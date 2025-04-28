@@ -1,5 +1,26 @@
-#   Home Credit Project
+#   Home Credit Default Risk Project
 
-## Predicting Default Risk for Home Credit
+## Business Problem and Objective
 
-In this project, I built a predictive model for the Home Credit Default Risk challenge to help improve lending decisions by identifying potential loan defaults. I compared several models, including Logistic Regression, Random Forest, XGBoost, and a Stacking Classifier, using AUC-ROC as the main evaluation metric. Throughout the process, I tackled challenges like class imbalance, convergence issues, and hyperparameter tuning. Logistic Regression struggled with complex patterns in the data, Random Forest showed slight improvements, and the Stacking Classifier, despite its potential, failed to predict the minority class effectively. XGBoost consistently outperformed the others, achieving an AUC-ROC of 0.76 while handling complex relationships and maintaining robustness across various evaluation metrics. Based on these findings, I recommend that Home Credit implement the XGBoost model as part of their lending decision process to enhance risk assessment accuracy and ensure more responsible lending outcomes.
+- Home Credit is focused on expanding financial inclusion by offering loans to individuals with limited credit history. However, assessing default risk accurately remains a critical challenge. 
+- The objective of our project was to develop a machine learning solution that predicts the likelihood of a customer defaulting, helping Home Credit make smarter lending decisions while minimizing financial losses.
+
+## Modelling Solution
+
+- We explored and compared several machine learning models, including Logistic Regression, Random Forest, XGBoost, and a Stacking Classifier. After evaluating their performance using AUC-ROC as the primary metric, we found that XGBoost significantly outperformed the others with an AUC-ROC score of 0.76. We experimented with stacking ensembling methods to further enhance predictive power, XGBoost xhowever, remained the most robust model, particularly in handling complex data patterns. We recommended that Home Credit implement the XGBoost model into their lending decision process to improve risk assessment and support more responsible lending.
+- Within our team, I was primarily responsible for training, tuning, and evaluating the machine learning models. I handled model selection, hyperparameter optimization, performance analysis, and comparison across different metrics. I also contributed to addressing class imbalance issues and ensuring that model evaluation remained aligned with business goals, balancing both interpretability and predictive performance.
+
+## Recommendation to Home Credit
+
+- By integrating the XGBoost model into their operations, Home Credit can significantly increase the accuracy of its default predictions, leading to better credit risk management, fewer loan defaults, and improved profitability. This solution supports Home Credit’s mission of promoting financial inclusion while maintaining a healthy and sustainable loan portfolio.
+
+## Challenges and Key Takeaways from this Project
+
+- One of the main challenges we faced was the severe class imbalance in the dataset, which caused some models, particularly the Stacking Classifier, to heavily favor the majority class. Logistic Regression also experienced convergence issues due to feature scaling and the complexity of data patterns. These difficulties pushed us to experiment with class weighting, advanced hyperparameter tuning, and thoughtful model selection strategies to achieve better balance and predictive performance.
+
+- Through this project, I learned the importance of aligning technical decisions with business objectives, especially when dealing with imbalanced datasets. I deepened my skills in training, tuning, and evaluating advanced machine learning models and understood the practical challenges of deploying models in real-world settings. This experience reinforced how critical model evaluation is, not just for accuracy, but also for delivering meaningful business value.
+
+
+  
+  
+
