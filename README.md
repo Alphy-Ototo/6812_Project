@@ -12,7 +12,7 @@
 
 ## Recommendation to Home Credit
 
-- By integrating the XGBoost model into their operations, Home Credit can significantly increase the accuracy of its default predictions, leading to better credit risk management, fewer loan defaults, and improved profitability. This solution supports Home Credit’s mission of promoting financial inclusion while maintaining a healthy and sustainable loan portfolio.
+- By integrating the XGBoost model into their operations, Home Credit can significantly increase the accuracy of its default predictions, leading to better credit risk management, fewer loan defaults, and improved profitability. This will result in estimated savings of $ 1.36 billion. This solution also supports Home Credit’s mission of promoting financial inclusion while maintaining a healthy and sustainable loan portfolio.
 
 ## Challenges and Key Takeaways from this Project
 
