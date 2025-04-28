@@ -1,0 +1,5 @@
+#   Home Credit Project
+
+## Predicting Default Risk for Home Credit
+
+In this project, I built a predictive model for the Home Credit Default Risk challenge to help improve lending decisions by identifying potential loan defaults. I compared several models, including Logistic Regression, Random Forest, XGBoost, and a Stacking Classifier, using AUC-ROC as the main evaluation metric. Throughout the process, I tackled challenges like class imbalance, convergence issues, and hyperparameter tuning. Logistic Regression struggled with complex patterns in the data, Random Forest showed slight improvements, and the Stacking Classifier, despite its potential, failed to predict the minority class effectively. XGBoost consistently outperformed the others, achieving an AUC-ROC of 0.76 while handling complex relationships and maintaining robustness across various evaluation metrics. Based on these findings, I recommend that Home Credit implement the XGBoost model as part of their lending decision process to enhance risk assessment accuracy and ensure more responsible lending outcomes.
